@@ -1,0 +1,66 @@
+/* Estilos para todo o documento */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #f8f8f8;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilos para o formulário de histórico de clima */
+  form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  button[type="submit"] {
+    background-color: #1a75ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para o contêiner de dados históricos */
+  .historical-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .historical-container p {
+    margin: 10px;
+    font-size: 18px;
+  }
+  
+  /* Estilos para o ícone do clima */
+  .weather-icon {
+    font-size: 100px;
+    margin: 20px;
+  }
+  
+  /* Estilos para o clima de chuva */
+  .rainy {
+    color: #2196f3;
+  }
+  
+  /* Estilos para o clima de sol */
+  .sunny {
+    color: #ffc107;
+  }
+  

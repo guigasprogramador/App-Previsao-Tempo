@@ -1,0 +1,30 @@
+.weather-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #b4e014;
+  width: 100%;
+}
+
+h1 {
+  font-size: 5rem;
+  margin-bottom: 100px;
+  
+}
+
+p {
+  font-size: 3rem;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+}
